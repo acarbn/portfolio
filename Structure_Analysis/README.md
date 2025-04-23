@@ -1,4 +1,5 @@
 # StructureComparer
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZrQmv9RXxJhA4DRqn-3jZC2NwmYq3_QM?usp=sharing)
 
 A lightweight Python utility on Colab to download, align, visualize, and compare two protein structures (calculating a distance vector between corresponding CA atoms of two given proteins) from the RCSB PDB. Built on Biopython and py3Dmol, it computes per‐residue RMSDs and plots a residue‐by‐residue difference profile.
 
