@@ -1,4 +1,5 @@
 # GNM Mean Square Fluctuations-Sequence Enrichment Score Correlation Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jzN_ZdrjgFe7SL9t9XzMbg7gFy-gwQaj?usp=sharing)
 
 This Google Colab notebook analyzes the correlation between Gaussian Network Model (GNM) mean square fluctuations (MSF) and experimental enrichment scores from FACS.
 
