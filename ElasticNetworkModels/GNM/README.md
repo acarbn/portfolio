@@ -1,4 +1,5 @@
 # Protein Dynamics Analysis Using GNM
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/acarbn/portfolio/blob/main/eigen_collectivity_msf.ipynb )
 
 A Python package for Gaussian Network Model (GNM) analysis of protein structures, with eigenmode calculation, mean‑square fluctuation (MSF) profiling, and mode collectivity metrics.
 
