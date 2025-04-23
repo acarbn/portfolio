@@ -1,16 +1,35 @@
-# Protein Dynamics using GNM
-This script computes protein dynamics using the Gaussian Network Model (GNM). It retrieves a PDB structure, extracts Cα coordinates for specified chains, constructs a Kirchhoff matrix with a 7.0 Å cutoff, performs eigen decomposition, and calculates the average Mean Square Fluctuations (MSF) from selected vibrational modes.
+# Protein Dynamics Analysis Using GNM
 
-## Quick Start
-### Dependencies:
-Install required packages:
+A Python package for Gaussian Network Model (GNM) analysis of protein structures, with eigenmode calculation, mean‑square fluctuation (MSF) profiling, and mode collectivity metrics.
 
-	pip install numpy pandas biopython plotly
-### Usage:
-- Set PDBname to your PDB ID (e.g., "1L7V").
+## Features
 
-- Define mode_set (e.g., list(range(1, 11)) for the first 10 modes).
+- **Kirchhoff matrix** construction from PDB structures
+- **Eigen-decomposition** for normal modes (eigenvalues & eigenvectors)
+- **Mean‑Square Fluctuations (MSF)** calculation per residue
+- **Plotting**: eigenvalue spectra & MSF profiles via Matplotlib
+- **Collectivity indices** to quantify mode delocalization
 
-- Specify the chains with chainID (e.g., 'ABCD').
-### Run the Script:
-Execute the script to download the structure, compute eigenvalues/MSF, and display interactive plots for both eigenvalues and MSF profiles.
+
+## Prerequisites
+
+- Python 3.7+
+- [Biopython](https://biopython.org/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+
+## Usage
+
+Run eigen_collectivity_msf.ipynb in Colab.
+
+## Example Input
+
+- PDBname = "1L7V"
+- chainID = 'ABCD'
+- mode_set = list(range(1, 11))
+- rcut_gnm = 10
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
