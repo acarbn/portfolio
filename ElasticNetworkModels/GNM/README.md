@@ -17,6 +17,7 @@ A Python package for Gaussian Network Model (GNM) analysis of protein structures
 - [Biopython](https://biopython.org/)
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
+- Plotly
 
 ## Usage
 
