@@ -1,5 +1,7 @@
 # Job Application Outcome Prediction Model
-- Burçin Acar
+Burçin Acar
+
+
 This project includes a SVC model that predicts whether job applicants will be accepted (0) or rejected (1) using Faker generated data for years of programming experience and technical score, along with a FastAPI-based web service that serves this model. 
 
 ## Project Description
