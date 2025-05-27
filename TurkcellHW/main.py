@@ -1,12 +1,3 @@
-
-"""
-PAİR ÜYELERİ
-İZEMNUR BUDAK
-BURÇİN ACAR
-HANDE NUR UYGUN
-NİSASU BOZKURT
-"""
-
 import pandas as pd
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
