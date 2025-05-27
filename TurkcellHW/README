@@ -2,12 +2,6 @@
 
 A FastAPI-based service that predicts the likelihood of an order being returned by a customer using a deep learning model.
 
-## Team Members
-- İZEMNUR BUDAK
-- BURÇİN ACAR
-- HANDE NUR UYGUN
-- NİSASU BOZKURT
-
 ## Features
 - Predicts return risk for customer orders
 - Provides explanations for predictions
@@ -99,5 +93,5 @@ A FastAPI-based service that predicts the likelihood of an order being returned 
 - `Xdata.csv`, `Ydata.csv`: Training data
 
 ## Extra
-- sample4.py create, compile, train, test, validate and tune the deep learning model. This code creates fullmodel.keras, scaler.joblob and csv files.
+- model.py create, compile, train, test, validate and tune the deep learning model. This code creates fullmodel.keras, scaler.joblob and csv files.
 
