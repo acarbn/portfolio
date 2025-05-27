@@ -30,8 +30,8 @@ from keras_tuner.tuners import RandomSearch
 import joblib
 
 
-user="burcinacar"
-password="sexed6925--"
+user="####"
+password="####"
 host="localhost"
 port="5432"
 database="deneme"
