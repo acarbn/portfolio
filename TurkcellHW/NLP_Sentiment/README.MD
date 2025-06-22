@@ -97,18 +97,9 @@ Two unsupervised methods are used to uncover latent topics in the headlines:
 * Probabilistic model using word-topic distributions.
 * Assigns prior probabilities.
 
-### 2. NMF (Non-negative Matrix Factorization)
-
-* Decomposes document-term matrix into parts.
-* Uses weights for topic-word relevance.
-
-### 📍 Example Topics:
-
-#### **LDA Topics**
+#### **Example Topics**
 
 Topic 1: 🎥 Lifestyle & Media: photo, video, new, way, food, best, day, life, time, get
-
-Examples: 
 
 * Reporter Gets Adorable Surprise From Her Boyfriend While Live On TV
 * Fiona Threatens To Become Category 4 Storm Headed To Bermuda
@@ -116,7 +107,6 @@ Examples:
 
 Topic 2: 🗳️ Politics & US Affairs: trump, donald, clinton, hillary, court, say
 
-Examples: 
 
 * How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
 * Man Sets Himself On Fire In Apparent Protest Of Funeral For Japan's Abe
@@ -124,15 +114,12 @@ Examples:
 
 Topic 3: 👨‍👩‍👧 Family & Women’s Topics: photo, woman, week, mom, parent, life
 
-Examples: 
-
 * 23 Of The Funniest Tweets About Cats And Dogs This Week (Sept. 17-23)
 * The Funniest Tweets From Parents This Week (Sept. 17-23)
 * Woman Who Called Cops On Black Bird-Watcher Loses Lawsuit Against Ex-Employer
 
 Topic 4: 🍏 Health, Wellness & Research: photo, way, video, woman, study, healthy, make
 
-Examples: 
 
 * Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters
 * American Airlines Flyer Charged, Banned For Life After Punching Flight Attendant On Video
@@ -140,25 +127,27 @@ Examples:
 
 Topic 5: 🌍 Global News: trump, year, world, news, woman
 
-Examples: 
 
 * Biden At UN To Call Russian War An Affront To Body's Charter
 * World Cup Captains Want To Wear Rainbow Armbands In Qatar
 * Virginia Thomas Agrees To Interview With Jan. 6 Panel
 
+### 2. NMF (Non-negative Matrix Factorization)
 
-#### **NMF Topics**
+* Decomposes document-term matrix into parts.
+* Uses weights for topic-word relevance.
+
+#### **Example Topics**
 
 Topic 1: 👗 Lifestyle, Fashion & Home
 
-Examples:
+
 * 'Reboot' Is A Clever And Not Too Navel-Gazey Look Inside TV Reboots
 * German Customs Officials Follow Trail Of Slime And Find Bags Of Giant Snails
 * Watch Harry Styles Pay Tribute To Queen Elizabeth II At NYC Concert
 
 Topic 2: 🗳️ US Politics & Campaigns
 
-Examples: 
 
 * Biden At UN To Call Russian War An Affront To Body's Charter
 * Fiona Threatens To Become Category 4 Storm Headed To Bermuda
@@ -166,7 +155,6 @@ Examples:
 
 Topic 3: 🎉 New Year & Events
 
-Examples: 
 
 * How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
 * Golden Globes Returning To NBC In January After Year Off-Air
@@ -174,7 +162,6 @@ Examples:
 
 Topic 4: 👨‍👧 Everyday Life & Parenting
 
-Examples: 
 
 * Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters
 * American Airlines Flyer Charged, Banned For Life After Punching Flight Attendant On Video
@@ -182,7 +169,6 @@ Examples:
 
 Topic 5: 😂 Humor, Social Media & Identity
 
-Examples: 
 
 * 23 Of The Funniest Tweets About Cats And Dogs This Week (Sept. 17-23)
 * The Funniest Tweets From Parents This Week (Sept. 17-23)
