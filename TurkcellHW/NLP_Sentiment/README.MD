@@ -149,11 +149,44 @@ Examples:
 
 #### **NMF Topics**
 
-* Topic 1: 👗 Lifestyle, Fashion & Home : 
-* Topic 2: 🗳️ US Politics & Campaigns
-* Topic 3: 🎉 New Year & Events
-* Topic 4: 👨‍👧 Everyday Life & Parenting
-* Topic 5: 😂 Humor, Social Media & Identity
+Topic 1: 👗 Lifestyle, Fashion & Home
+
+Examples:
+* 'Reboot' Is A Clever And Not Too Navel-Gazey Look Inside TV Reboots
+* German Customs Officials Follow Trail Of Slime And Find Bags Of Giant Snails
+* Watch Harry Styles Pay Tribute To Queen Elizabeth II At NYC Concert
+
+Topic 2: 🗳️ US Politics & Campaigns
+
+Examples: 
+
+* Biden At UN To Call Russian War An Affront To Body's Charter
+* Fiona Threatens To Become Category 4 Storm Headed To Bermuda
+* Twitch Bans Gambling Sites After Streamer Scams Folks Out Of $200,000
+
+Topic 3: 🎉 New Year & Events
+
+Examples: 
+
+* How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
+* Golden Globes Returning To NBC In January After Year Off-Air
+* ‘Beautiful And Sad At The Same Time’: Ukrainian Cultural Festival Takes On A Deeper Meaning This Year
+
+Topic 4: 👨‍👧 Everyday Life & Parenting
+
+Examples: 
+
+* Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters
+* American Airlines Flyer Charged, Banned For Life After Punching Flight Attendant On Video
+* Cleaner Was Dead In Belk Bathroom For 4 Days Before Body Found: Police
+
+Topic 5: 😂 Humor, Social Media & Identity
+
+Examples: 
+
+* 23 Of The Funniest Tweets About Cats And Dogs This Week (Sept. 17-23)
+* The Funniest Tweets From Parents This Week (Sept. 17-23)
+* Woman Who Called Cops On Black Bird-Watcher Loses Lawsuit Against Ex-Employer
 
 ---
 
@@ -178,12 +211,6 @@ Examples:
 * textblob
 * vaderSentiment
 * kagglehub
-
-Install via:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
