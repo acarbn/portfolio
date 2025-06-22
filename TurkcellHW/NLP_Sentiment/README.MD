@@ -30,7 +30,7 @@ Two vectorization techniques are used:
 
 * Converts text into token frequency counts.
 * Does not distinguish importance of words.
-* Example output:
+* Example output for “Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters”:
 
 ```
 million_cd: 1
@@ -46,7 +46,7 @@ booster_nn: 1
 
 * Calculates the importance of words based on their frequency and rarity.
 * Highlights unique and meaningful words in context.
-* Example output:
+* Example output “Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters”:
 
 ```
 million_cd: 0.2448
