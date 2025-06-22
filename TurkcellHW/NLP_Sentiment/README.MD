@@ -106,16 +106,17 @@ Two unsupervised methods are used to uncover latent topics in the headlines:
 
 #### **LDA Topics**
 
-* Topic 1: 🎥 Lifestyle & Media: photo, video, new, way, food, best, day, life, time, get
+* Topic 1: 🎥 Lifestyle & Media: photo, video, new, way, food, best, day, life, time, get 
+  (E.g.,Reporter Gets Adorable Surprise From Her Boyfriend While Live On TV
+  Fiona Threatens To Become Category 4 Storm Headed To Bermuda
+  Golden Globes Returning To NBC In January After Year Off-Air)
 * Topic 2: 🗳️ Politics & US Affairs: trump, donald, clinton, hillary, court, say 
 * Topic 3: 👨‍👩‍👧 Family & Women’s Topics: photo, woman, week, mom, parent, life
 * Topic 4: 🍏 Health, Wellness & Research: photo, way, video, woman, study, healthy, make
 * Topic 5: 🌍 Global News: trump, year, world, news, woman
 
 *📌 Example headlines for Topic 1:
-Reporter Gets Adorable Surprise From Her Boyfriend While Live On TV
-Fiona Threatens To Become Category 4 Storm Headed To Bermuda
-Golden Globes Returning To NBC In January After Year Off-Air
+
 
 *📌 Example headlines for Topic 2:
 How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
