@@ -114,33 +114,37 @@ Examples:
 * Fiona Threatens To Become Category 4 Storm Headed To Bermuda
 * Golden Globes Returning To NBC In January After Year Off-Air
 
-* Topic 2: 🗳️ Politics & US Affairs: trump, donald, clinton, hillary, court, say 
-* Topic 3: 👨‍👩‍👧 Family & Women’s Topics: photo, woman, week, mom, parent, life
-* Topic 4: 🍏 Health, Wellness & Research: photo, way, video, woman, study, healthy, make
-* Topic 5: 🌍 Global News: trump, year, world, news, woman
+Topic 2: 🗳️ Politics & US Affairs: trump, donald, clinton, hillary, court, say
 
-*📌 Example headlines for Topic 1:
+Examples: 
 
+* How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
+* Man Sets Himself On Fire In Apparent Protest Of Funeral For Japan's Abe
+* 'Reboot' Is A Clever And Not Too Navel-Gazey Look Inside TV Reboots
 
-*📌 Example headlines for Topic 2:
-How A New Documentary Captures The Complexity Of Being A Child Of Immigrants
-Man Sets Himself On Fire In Apparent Protest Of Funeral For Japan's Abe
-'Reboot' Is A Clever And Not Too Navel-Gazey Look Inside TV Reboots
+Topic 3: 👨‍👩‍👧 Family & Women’s Topics: photo, woman, week, mom, parent, life
 
-*📌 Example headlines for Topic 3:
-23 Of The Funniest Tweets About Cats And Dogs This Week (Sept. 17-23)
-The Funniest Tweets From Parents This Week (Sept. 17-23)
-Woman Who Called Cops On Black Bird-Watcher Loses Lawsuit Against Ex-Employer
+Examples: 
 
-*📌 Example headlines for Topic 4:
-Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters
-American Airlines Flyer Charged, Banned For Life After Punching Flight Attendant On Video
-Russian Cosmonaut Valery Polyakov Who Broke Record With 437-Day Stay In Space Dies At 80
+* 23 Of The Funniest Tweets About Cats And Dogs This Week (Sept. 17-23)
+* The Funniest Tweets From Parents This Week (Sept. 17-23)
+* Woman Who Called Cops On Black Bird-Watcher Loses Lawsuit Against Ex-Employer
 
-*📌 Example headlines for Topic 5:
-Biden At UN To Call Russian War An Affront To Body's Charter
-World Cup Captains Want To Wear Rainbow Armbands In Qatar
-Virginia Thomas Agrees To Interview With Jan. 6 Panel
+Topic 4: 🍏 Health, Wellness & Research: photo, way, video, woman, study, healthy, make
+
+Examples: 
+
+* Over 4 Million Americans Roll Up Sleeves For Omicron-Targeted COVID Boosters
+* American Airlines Flyer Charged, Banned For Life After Punching Flight Attendant On Video
+* Russian Cosmonaut Valery Polyakov Who Broke Record With 437-Day Stay In Space Dies At 80
+
+Topic 5: 🌍 Global News: trump, year, world, news, woman
+
+Examples: 
+
+* Biden At UN To Call Russian War An Affront To Body's Charter
+* World Cup Captains Want To Wear Rainbow Armbands In Qatar
+* Virginia Thomas Agrees To Interview With Jan. 6 Panel
 
 
 #### **NMF Topics**
@@ -150,19 +154,6 @@ Virginia Thomas Agrees To Interview With Jan. 6 Panel
 * Topic 3: 🎉 New Year & Events
 * Topic 4: 👨‍👧 Everyday Life & Parenting
 * Topic 5: 😂 Humor, Social Media & Identity
-
----
-
-## 📁 Output Example
-
-```
-TF-IDF - Word weights:
-omicrontargeted_vbn: 0.5000
-sleeve_nn: 0.4562
-covid_jj: 0.4103
-booster_nn: 0.4027
-roll_nn: 0.3208
-```
 
 ---
 
@@ -199,7 +190,7 @@ pip install -r requirements.txt
 ## 🧐 Author
 
 **Burçin Acar**
-PhD in Protein Dynamics, working on NLP and machine learning applications in scientific domains.
+PhD in Protein Dynamics Modeling, working on NLP and machine learning applications in scientific domains.
 
 ---
 
