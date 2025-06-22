@@ -74,13 +74,6 @@ df['clean_text_pos'] = df['tokens_pos'].apply(lambda x: ' '.join(x))
 print(df.head())
 
 ## Vectorization: to convert your text data into numerical features
-# 1- CountVectorizer() : This method converts your text into a Bag-of-Words (BoW) representation.
-#                        It creates a vocabulary of all unique tokens (words or tokens like "woman_NN")
-#                        from your text.
-#                        Then it counts how many times each token appears in each document (headline).
-#                        The output is a sparse matrix of shape (num_documents, num_unique_tokens).
-#                        Each row = one document (headline), each column = token count.
-
 cv = CountVectorizer() # Bag-of-Words (BoW) sparse matrix representation
 X_bow = cv.fit_transform(df['clean_text_pos'])
 features = cv.get_feature_names_out()
