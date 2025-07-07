@@ -40,3 +40,7 @@ Hamming Loss: 0.07273726391965236
 Subset Accuracy: 0.14766244525979405
 Coverage Error: 4.725553319919517
 Label Ranking Loss: 0.11704248577322716
+
+For comment="I really love this product, it makes me happy!"
+Predicted emotions: ['excitement', 'joy', 'love']
+Probabilities: {'admiration': 0.18000574, 'amusement': 0.07593029, 'anger': 0.00064113725, 'annoyance': 0.0018937016, 'approval': 0.025598316, 'caring': 0.01614847, 'confusion': 0.00018259484, 'curiosity': 0.0015521982, 'desire': 0.0050589875, 'disappointment': 0.0010566406, 'disapproval': 0.00028862516, 'disgust': 0.0002446668, 'embarrassment': 0.00037617373, 'excitement': 0.14979576, 'fear': 0.00028452906, 'gratitude': 0.07161509, 'grief': 0.0004301496, 'joy': 0.40509266, 'love': 0.72676736, 'nervousness': 0.00028508244, 'optimism': 0.013705839, 'pride': 0.0051503293, 'realization': 0.0046630725, 'relief': 0.0047677136, 'remorse': 0.00017558206, 'sadness': 0.0020061613, 'surprise': 0.00312869, 'neutral': 0.011437104}
