@@ -115,6 +115,8 @@ This project tackles multi-label emotion classification on text inputs, predicti
 ## License
 This project is licensed under the MIT License.
 
-## Author: Burcin Acar
+## Author 
+Burcin Acar
 
-##Date: 2025-07-07
+## Date
+2025-07-07
