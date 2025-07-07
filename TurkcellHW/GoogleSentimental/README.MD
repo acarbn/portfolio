@@ -85,3 +85,36 @@ This project tackles multi-label emotion classification on text inputs, predicti
 
    ```bash
    pip install -r requirements.txt
+
+3. Run the main script to download data, preprocess, train, and save the model:
+
+   ```bash
+   python train_model.py
+
+4. Run the evaluation script to load the model and tokenizer, run predictions, and visualize results:
+
+   ```bash
+   python evaluate_model.py
+
+## Results
+- Achieved reasonable precision and recall across multiple emotion categories.
+- Optimizing thresholds per label improved classification F1 scores.
+- Visualizations of ROC curves and optimal thresholds per emotion help interpret model performance.
+
+## Dependencies
+- Python 3.7+
+- TensorFlow 2.x
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- ftfy
+- tqdm
+- requests
+
+## License
+This project is licensed under the MIT License.
+
+## Author: Burcin Acar
+
+##Date: 2025-07-07
