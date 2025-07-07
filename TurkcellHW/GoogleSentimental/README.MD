@@ -100,6 +100,7 @@ This project tackles multi-label emotion classification on text inputs, predicti
 - Achieved reasonable precision and recall across multiple emotion categories.
 - Optimizing thresholds per label improved classification F1 scores.
 - Visualizations of ROC curves and optimal thresholds per emotion help interpret model performance.
+- All relevant results can be found under Results folder. 
 
 ## Dependencies
 - Python 3.7+
