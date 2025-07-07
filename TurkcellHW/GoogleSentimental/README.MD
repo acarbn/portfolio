@@ -74,6 +74,7 @@ This project tackles multi-label emotion classification on text inputs, predicti
 - Metrics reported: Classification report, Label Ranking Average Precision (LRAP), Macro ROC-AUC, Hamming Loss, Subset Accuracy, Coverage Error, Label Ranking Loss.  
 - ROC curves plotted for each label.  
 - Thresholds visualization per label.
+- Emotion prediction performed on an example comment.
 
 ---
 
