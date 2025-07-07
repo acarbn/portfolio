@@ -121,3 +121,46 @@ from sklearn.metrics import coverage_error, label_ranking_loss
 
 print("Coverage Error:", coverage_error(y_test, y_pred_proba))
 print("Label Ranking Loss:", label_ranking_loss(y_test, y_pred_proba))
+
+
+######## Example #########################################################################################
+def predict_comment(comment, tokenizer, model, optimal_thresholds, max_length, target_names):
+    import re
+    import string
+    from ftfy import fix_text
+    from tensorflow.keras.preprocessing.sequence import pad_sequences
+    import numpy as np
+
+    # Clean and preprocess the input comment (same as your training data)
+    def clean_text(text):
+        text = text.lower()
+        text = re.sub(r'\d+', '', text)
+        text = text.translate(str.maketrans('', '', string.punctuation))
+        return text
+
+    comment_fixed = fix_text(comment)
+    comment_clean = clean_text(comment_fixed)
+
+    # Tokenize and pad
+    seq = tokenizer.texts_to_sequences([comment_clean])
+    pad_seq = pad_sequences(seq, maxlen=max_length, padding='post', truncating='post')
+
+    # Predict probabilities
+    pred_proba = model.predict(pad_seq)[0]
+
+    # Apply optimal thresholds to get binary prediction
+    pred_binary = (pred_proba >= optimal_thresholds).astype(int)
+
+    # Extract predicted labels
+    predicted_labels = [label for label, pred in zip(target_names, pred_binary) if pred == 1]
+
+    return {
+        "probabilities": dict(zip(target_names, pred_proba)),
+        "predictions": predicted_labels
+    }
+
+comment = "I really love this product, it makes me happy!"
+result = predict_comment(comment, tokenizer, model, optimal_thresholds, max_length, target_names)
+
+print("Predicted emotions:", result['predictions'])
+print("Probabilities:", result['probabilities'])
