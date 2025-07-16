@@ -76,12 +76,17 @@ y = df_merged.drop(columns=['clean_text'])
 print(df.shape)
 print(df_aug.shape)
 print(df_merged.shape)
-
+df_merged.to_csv("google_sentimentHW_dataaug/data/augm.csv",index=False)
 
 print(df_merged.head(10))
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+print(X_test)
+X_test.to_csv("google_sentimentHW_dataaug/data/Xtest.csv", index=False)
+y_test.to_csv("google_sentimentHW_dataaug/data/ytest.csv", index=False)
+X_train.to_csv("google_sentimentHW_dataaug/data/Xtrain.csv", index=False)
 
+print("STOPPPPPPPP")
 ### TOKENIZE ###########################################################################################
 from tensorflow.keras.preprocessing.text import Tokenizer
 tokenizer = Tokenizer(oov_token='<OOV>')
