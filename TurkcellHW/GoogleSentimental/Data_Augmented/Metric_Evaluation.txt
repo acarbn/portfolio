@@ -1,45 +1,44 @@
                 precision    recall  f1-score   support
 
-    admiration       0.65      0.63      0.64      3456
-     amusement       0.57      0.77      0.65      1891
-         anger       0.42      0.59      0.49      1628
-     annoyance       0.34      0.52      0.41      2722
-      approval       0.36      0.46      0.40      3418
-        caring       0.39      0.44      0.41      1147
-     confusion       0.34      0.54      0.42      1463
-     curiosity       0.47      0.51      0.49      1941
-        desire       0.39      0.45      0.42       758
-disappointment       0.31      0.40      0.35      1671
-   disapproval       0.39      0.47      0.42      2289
-       disgust       0.39      0.48      0.43      1074
- embarrassment       0.37      0.35      0.36       502
-    excitement       0.35      0.43      0.38      1121
-          fear       0.52      0.54      0.53       625
-     gratitude       0.89      0.79      0.83      2330
-         grief       0.30      0.30      0.30       115
-           joy       0.41      0.57      0.47      1597
-          love       0.64      0.73      0.68      1632
-   nervousness       0.26      0.35      0.30       365
-      optimism       0.50      0.50      0.50      1769
-         pride       0.32      0.29      0.31       260
-   realization       0.29      0.39      0.33      1715
-        relief       0.30      0.30      0.30       257
-       remorse       0.49      0.60      0.54       518
-       sadness       0.40      0.56      0.47      1294
-      surprise       0.48      0.50      0.49      1074
-       neutral       0.54      0.72      0.62     11185
+    admiration       0.57      0.66      0.61     13671
+     amusement       0.56      0.74      0.64      7326
+         anger       0.45      0.51      0.48      6429
+     annoyance       0.34      0.52      0.41     10880
+      approval       0.36      0.47      0.41     13941
+        caring       0.38      0.44      0.41      4821
+     confusion       0.40      0.44      0.42      5880
+     curiosity       0.44      0.52      0.48      7856
+        desire       0.47      0.40      0.43      3044
+disappointment       0.31      0.40      0.35      6846
+   disapproval       0.36      0.47      0.41      9019
+       disgust       0.37      0.49      0.42      4242
+ embarrassment       0.35      0.35      0.35      2007
+    excitement       0.36      0.38      0.37      4541
+          fear       0.52      0.57      0.54      2638
+     gratitude       0.87      0.73      0.80      9406
+         grief       0.31      0.32      0.31       541
+           joy       0.46      0.45      0.46      6262
+          love       0.63      0.71      0.67      6553
+   nervousness       0.31      0.29      0.30      1425
+      optimism       0.49      0.48      0.49      7096
+         pride       0.32      0.27      0.30      1096
+   realization       0.31      0.33      0.32      7084
+        relief       0.26      0.38      0.31      1072
+       remorse       0.49      0.55      0.52      1995
+       sadness       0.44      0.51      0.48      5303
+      surprise       0.48      0.47      0.48      4342
+       neutral       0.54      0.70      0.61     44011
 
-     micro avg       0.47      0.58      0.52     49817
-     macro avg       0.43      0.51      0.46     49817
-  weighted avg       0.48      0.58      0.52     49817
-   samples avg       0.48      0.59      0.51     49817
+     micro avg       0.47      0.56      0.51    199327
+     macro avg       0.43      0.48      0.46    199327
+  weighted avg       0.47      0.56      0.51    199327
+   samples avg       0.47      0.56      0.49    199327
 
-📈 LRAP: 0.6885955290329628
-📉 Macro ROC-AUC: 0.925736144212939
-Hamming Loss: 0.045549769203456034
-Subset Accuracy: 0.3073263108060125
-Coverage Error: 3.100864007574861
-Label Ranking Loss: 0.0630991428166806
+📈 LRAP: 0.6749290056887688
+📉 Macro ROC-AUC: 0.9129337981157716
+Hamming Loss: 0.04552192784801119
+Subset Accuracy: 0.30661630416735847
+Coverage Error: 3.3909003581508976
 
 For comment="I really love this product, it makes me happy!"
 Predicted emotions: ['joy', 'love']
