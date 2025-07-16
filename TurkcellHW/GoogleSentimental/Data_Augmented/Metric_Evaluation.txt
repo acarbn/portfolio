@@ -1,0 +1,46 @@
+                precision    recall  f1-score   support
+
+    admiration       0.65      0.63      0.64      3456
+     amusement       0.57      0.77      0.65      1891
+         anger       0.42      0.59      0.49      1628
+     annoyance       0.34      0.52      0.41      2722
+      approval       0.36      0.46      0.40      3418
+        caring       0.39      0.44      0.41      1147
+     confusion       0.34      0.54      0.42      1463
+     curiosity       0.47      0.51      0.49      1941
+        desire       0.39      0.45      0.42       758
+disappointment       0.31      0.40      0.35      1671
+   disapproval       0.39      0.47      0.42      2289
+       disgust       0.39      0.48      0.43      1074
+ embarrassment       0.37      0.35      0.36       502
+    excitement       0.35      0.43      0.38      1121
+          fear       0.52      0.54      0.53       625
+     gratitude       0.89      0.79      0.83      2330
+         grief       0.30      0.30      0.30       115
+           joy       0.41      0.57      0.47      1597
+          love       0.64      0.73      0.68      1632
+   nervousness       0.26      0.35      0.30       365
+      optimism       0.50      0.50      0.50      1769
+         pride       0.32      0.29      0.31       260
+   realization       0.29      0.39      0.33      1715
+        relief       0.30      0.30      0.30       257
+       remorse       0.49      0.60      0.54       518
+       sadness       0.40      0.56      0.47      1294
+      surprise       0.48      0.50      0.49      1074
+       neutral       0.54      0.72      0.62     11185
+
+     micro avg       0.47      0.58      0.52     49817
+     macro avg       0.43      0.51      0.46     49817
+  weighted avg       0.48      0.58      0.52     49817
+   samples avg       0.48      0.59      0.51     49817
+
+📈 LRAP: 0.6885955290329628
+📉 Macro ROC-AUC: 0.925736144212939
+Hamming Loss: 0.045549769203456034
+Subset Accuracy: 0.3073263108060125
+Coverage Error: 3.100864007574861
+Label Ranking Loss: 0.0630991428166806
+
+For comment="I really love this product, it makes me happy!"
+Predicted emotions: ['joy', 'love']
+Probabilities: {'admiration': 0.01590869, 'amusement': 0.017661132, 'anger': 0.017175205, 'annoyance': 0.07026931, 'approval': 0.038979944, 'caring': 0.010967832, 'confusion': 0.009769375, 'curiosity': 0.011558773, 'desire': 0.005552511, 'disappointment': 0.005691128, 'disapproval': 0.005742166, 'disgust': 0.0075045913, 'embarrassment': 0.0035114917, 'excitement': 0.045572273, 'fear': 0.00025978856, 'gratitude': 0.0014774448, 'grief': 2.0409685e-05, 'joy': 0.29940882, 'love': 0.70298463, 'nervousness': 0.00084843196, 'optimism': 0.0030642466, 'pride': 0.0009178035, 'realization': 0.010092076, 'relief': 0.0011740694, 'remorse': 4.1050902e-05, 'sadness': 0.0010339887, 'surprise': 0.0042717354, 'neutral': 0.06493769}
