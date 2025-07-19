@@ -6,14 +6,15 @@ Prototip icin:
 - 100 test ornegi ile degerlendirildi
 
 Model:
-- T5-small
-- Facebook/bert-base
+- T5-small 
+- Facebook/bert-base +
 
 Training:
-- Trainer
+- Trainer +
 - Seq2SeqTrainer
 
 To Do:
-- Epoch= 3 artir
+- Epoch= 3 artir 
 - Verinin tamamiyla egit
 - Tahmini sifirdan cumleler ile yap
+- Label'i clean text yapma
