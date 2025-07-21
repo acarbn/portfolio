@@ -86,7 +86,7 @@ You can extend the `AugProcessor` class to include contextual insertions using B
 * Max Input Length: 512 tokens
 * Max Output Length: 150 tokens
 * Beam Search: `num_beams=4`, `length_penalty=2.0`, `early_stopping=True`
-
+* Prototype model was trained on 5000 instances, validated and tested on two set of 100 instances
 ---
 
 ## ✍️ Example Output
