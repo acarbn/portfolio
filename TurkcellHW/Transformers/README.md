@@ -6,7 +6,7 @@ This project demonstrates how to use a fine-tuned BART model from Hugging Face T
 
 * `predict.py`: Loads the model and tokenizer, processes a list of news articles, generates summaries, and writes the full articles with their summaries to an output text file.
 * `text_processor.py`: Defines the text preprocessing pipeline, including cleaning, stopword removal, and optional data augmentation using `nlpaug`.
-* `main_bart_trainer_epoch6_noclear.py`: Training script for the BART model (uploaded separately).
+* `main.py`: Training script for the BART model (uploaded separately).
 
 ---
 
