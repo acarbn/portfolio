@@ -1,6 +1,12 @@
 ## Results
 
-Different models and parameters were tested for the task. Although resulted similar mean ROUGE-L scores, facebook/bart-base trained with Trainer for 6 epochs resulted the best performance. However when the hughlight labels were cleaned, the predictions resulted non-sentence outputs. Therefore the model was re-trained from not cleaned labels so that it will provide full sentence summaries. 
+Different models and parameters were tested for the task. 
+
+Although resulted similar mean ROUGE-L scores, facebook/bart-base trained with Trainer for 6 epochs resulted the best performance. 
+
+However when the hughlight labels were cleaned, the predictions resulted non-sentence outputs. 
+
+Therefore the model was re-trained from not cleaned labels so that it will provide full sentence summaries. 
 
 
 | Transformer        | Epoch | Training Method | Summary Labels | Mean ROUGE-L |
