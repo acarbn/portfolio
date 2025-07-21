@@ -105,7 +105,7 @@ Gen X faces societal pressure as they age, leading some to turn to extreme weigh
 
 * Ensure your GPU is enabled for faster generation.
 * Modify the `texts` list in `predict.py` to test your own inputs.
-* This repo is a minimal inference/demo pipeline; for fine-tuning code, refer to `main_bart_trainer_epoch6_noclear.py`.
+* This repo is a minimal inference/demo pipeline; for fine-tuning code, refer to `main.py`.
 
 ---
 
