@@ -46,7 +46,7 @@ nltk.download('stopwords')
 
 ### 3. Prepare Model and Tokenizer
 
-Ensure the trained model is placed in `news_summary/saved_model_bart_trainer_epoch6_noclearlabel/`.
+Ensure the trained model is placed in `news_summary/saved_model/`.
 
 ### 4. Run Prediction
 
