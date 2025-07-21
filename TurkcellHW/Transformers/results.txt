@@ -1,0 +1,46 @@
+📊 Mean ROUGE-L (batch predict): 0.2223
+
+--- Full Article 1 ---
+gen x mounjaro midlife crisis paying consequences little weight gain menopause normal happens generation came age skinnychic nineties beachbodyready noughties judgement real leading sad consequences world weight loss jabs says
+
+--- Summary 1 ---
+Mounjaro's mid-life crisis is paying off with a little weight gain in menopause .
+Jabs: We came to the age of the skinny-chic nineties and beach-ready noughties .
+He says the sad consequences of weight loss are the same as those of obesity .
+
+
+--- Full Article 2 ---
+parts southern england set battered torrential rain saturday couldcause significant flooding danger life met office said amber warning thunderstorms issued spanning major towns cities including london brighton portsmouth chelmsford st albans cambridge forecasters warned sudden flooding roads homes remote communities risk cut delays train bus services also likely power cuts could also occur buildings risk damage floodwater lightning strikes hail strong winds one several weather warnings thunderstorms issued across country
+
+--- Summary 2 ---
+Storms in southern England could cause "significant flooding and danger to life," Met Office says .
+Amber warning for thunderstorms issued spanning major towns in London, portsmouth, Chelmsford and Albans .
+Forecasters warn sudden flooding of roads, homes and remote communities could cut off train, bus services .
+
+
+--- Full Article 3 ---
+professional footballers sometimes use mathematical strategy help score penalty save one comes randomness reach latter stages major football tournament penalty shootouts evenly matched teams seem almost inevitability absorbing spectacle neutral watchers agonising fans teams involved potentially careerdefining players penalty shootout offers form sporting drama almost unrivalled acute tension transpired thursday night england sweden couldnt separated normal extra time euro quarter final read analysis game bbc sport stepped allessia russo england take first kick putting beyond reach diving swedish keeper jennifer falk england would score next three kicks falk dived right way saved three camera cut falk englands fifth penalty could seen consulting water bottle names england penalty takers preferred penalty direction listed
+
+--- Summary 3 ---
+Footballers sometimes use mathematical strategy to score a penalty to save one .
+ Penalty shootouts between evenly matched teams can be an absorbing spectacle .
+Sweden and England could not separated in normal time in Euro 2008 quarter final .
+
+
+--- Full Article 4 ---
+paris opera wants feel first understand later one worlds iconic cultural institutions paris opera invites audiences experience emotion intellect founded louis xiv shaped centuries artistic expression balancing opera ballet equal measure behind grandeur palais garnier lies simple truth first connection art doesnt need expertise openness whether youre drawn theatre sculpture sound theres opera waiting resonate experience begins stage moment step inside
+
+--- Summary 4 ---
+Palais Garnier is one of France's most iconic cultural institutions .
+It is a place of emotion and intellect founded by Louis XVI in 1805 .
+Theater and ballet are equal measure behind grandeur of Palais garnier .
+
+
+--- Full Article 5 ---
+number russian spies sanctioned conducting sustained campaign malicious cyber activity including uk foreign office said three military intelligence units russias gru espionage agency officers sanctions placed allegedly spreading chaos disorder russian president vladimir putins orders uk foreign secretary david lammy linked activity uks continued support ukraine said gru spies running campaign destabilise europe separately european union placed strongest sanctions yet russia ukrainian president volodymyr zelensky called essential timely latest eu measures announced friday included ban transactions related nord stream natural gas pipeline lowering cap price russian oil bought uk joined move lower price cap chancellor rachel reeves saying europe turning screw kremlins war chest come european allies hope ratchet pressure russia bring threeyearlong war ukraine end former russian president dmitry medvedev close ally putin said nations economy would survive sanctions moscow continue striking ukraine increasing force eu sanctions th round measures since russias fullscale invasion ukraine began aim undermine moscows ability finance war ukraine something western sanctions far failed achieve russia increased oil exports china india operates socalled shadow fleet oil tankers around globe
+
+--- Summary 5 ---
+Russian spies have been sanctioned for "conducted a sustained campaign of malicious cyber activity"
+U.K. Foreign Secretary David lammy linked to activity .
+EU sanctions include ban on transactions related to Nord Stream natural gas pipeline .
+
