@@ -16,3 +16,6 @@ Therefore the model was re-trained from not cleaned labels so that it will provi
 | facebook/bart-base | 3     | Trainer         | Cleaned        | 0.2221       |
 | facebook/bart-base | 6     | Trainer         | Cleaned        | 0.2348       |
 | facebook/bart-base | 6     | Trainer         | Not cleaned    | 0.2223       |
+
+
+The model should be trained with full data, although it requires significant computational power. 
