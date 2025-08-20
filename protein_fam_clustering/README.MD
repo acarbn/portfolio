@@ -20,6 +20,7 @@ This repository provides tools to cluster protein sequences into families using 
 
 1. **Clone the repository:**
 ```bash
-git clone <repo_url>
-cd <repo_name>
+git clone https://github.com/acarbn/portfolio.git
+cd portfolio/protein_fam_clustering
+
 
