@@ -1,4 +1,4 @@
-# Protein Sequence Clustering and PFAM Analysis
+# Protein Sequence Clustering and Family Analysis
 
 **Author:** Burcin Acar  
 
